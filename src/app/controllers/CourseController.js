@@ -13,10 +13,10 @@ class CourseController {
             .catch(next)
     }
 
-    //GET /course/create
+    //POST /course/create
     create(req, res, next){
         
-        res.send('course create')
+        res.render('courses/create');
     }
 }
 
